@@ -1,3 +1,7 @@
 body {
     background: url(Experiment_2/room.jpg);
 }
+
+#back img {
+    position: absolute;
+}
