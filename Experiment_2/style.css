@@ -1,5 +1,6 @@
 #back{
     position: fixed;
     border: 2px solid blue;
-    background-image: url(room.jpg);
+    background: "/room.jpg";
+    background-position: center;
 }
