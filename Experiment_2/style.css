@@ -1,5 +1,7 @@
-#back{
-    position: fixed;
-    border: 2px solid blue;
-    background-image: url(room.jpg);
+body {
+    background: url(Experiment_2/room.jpg);
+}
+
+#back img {
+    position: absolute;
 }
