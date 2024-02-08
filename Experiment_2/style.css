@@ -1,6 +1,6 @@
 #back{
     position: fixed;
     border: 2px solid blue;
-    background: "/room.jpg";
+    background: "./room.jpg";
     background-position: center;
 }
