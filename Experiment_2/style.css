@@ -24,8 +24,8 @@ body {
 #dark {
     position: absolute;
     z-index: 1;
-    width: 99.6vw;
-    height: 99vh;
+    width: 100vw;
+    height: 100vh;
     background-color: black;
 }
 
