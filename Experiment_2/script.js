@@ -30,9 +30,9 @@ document.addEventListener("touchmove", (e) => {
 
 const img = document.getElementById("img");
 const color = document.getElementById("dark");
-const click = document.getElementById("back");
+const click_1 = document.getElementById("back");
 
-click.addEventListener("click", function() {
+click_1.addEventListener("click", function() {
     img.src = "lit-bulb.png";
     color.style.backgroundColor = 'transparent';
-})
+});
