@@ -1,21 +1,43 @@
+<!DOCTYPE html>
+
 <html>
     <head>
         <title>CSS grid</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container">
-            <div class="column-left">
-                <div id="img-div">
-                    <img id="img" src="">
+        <div class="three-coloumn">
+            <div class="intro">
+                <div class="img-class"><img id="default-img" src="GamerX.jpg" alt="ME"></div>
+                <div class="name"><h1 id="name">Divyam</h1></div>
+            </div>
+            <div class="about">
+                <h2>About:</h2>
+                <div class="about">
+                    <p id="about">
+                        Hi! My name is Divyam. I am currently studying MCA form Chandigarh University.
+                        I am from Jharkhand & I have completed my bacholarate from "Amity University Jharkhand" 
+                        form Bachelor of Science in Information Technology(B.Sc.IT)
+                    </p>
                 </div>
-                <div id="name"></div>
             </div>
-            <div class="column-middle">
-                <div id="about"></div>
-                <div id="location"></div>
+            <div class="update">
+                <div id="update-name">
+                    <label for="up-nme">NAME:<br></label>
+                    <input type="text" placeholder="Name" id="up-nme"><br>
+                    <button onclick="updatename()">Update</button>
+                </div>
+                <div id="update-img">
+                    <label for="up-img">IMAGE:<br></label>
+                    <input type="file" id="up-img"  accept="image/*">
+                </div>
+                <div id="update-abt">
+                    <label for="up-abt">ABOUT:<br></label>
+                    <textarea placeholder="About" rows="6" cols="50" id="up-abt"></textarea><br>
+                    <button onclick="updateabout()">Update</button>
+                </div>
             </div>
-            <div class="column-right"></div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
